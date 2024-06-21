@@ -18,7 +18,7 @@
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="68d1be32-066c-4c45-a061-9d7a06acb744">
       <console name="Connection" type="STANDARD" schema="bdebPannesElectriques" session="Main"><![CDATA[select * from scrapping
-select * from panne
+select * from panne 
 select * from meteo
 select * from region where lien_meteo != ''
 
@@ -31,7 +31,16 @@ update region set lien_meteo = 'https://meteo.gc.ca/api/app/fr/Location/QC-147?t
 update region set lien_meteo = 'https://meteo.gc.ca/api/app/fr/Location/QC-28?type=city' where id = 2586
 update region set lien_meteo = 'https://meteo.gc.ca/api/app/fr/Location/QC-126?type=city' where id = 2987
 update region set lien_meteo = 'https://meteo.gc.ca/api/app/fr/Location/QC-166?type=city' where id = 3307
-update region set lien_meteo = 'https://meteo.gc.ca/api/app/fr/Location/QC-13?type=city' where id = 2163]]></console>
+update region set lien_meteo = 'https://meteo.gc.ca/api/app/fr/Location/QC-13?type=city' where id = 2163
+
+
+
+select r.nom, p.interruption, p.clients_prive, p.clients_total, s.date_heure_debut, s.date_heure_fin from panne p
+INNER JOIN REGION r on r.id = p.id_region
+INNER JOIN scrapping s on s.id = p.id_scrapping
+order by date_heure_debut
+
+select * from region]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -87,7 +96,7 @@ update region set lien_meteo = 'https://meteo.gc.ca/api/app/fr/Location/QC-13?ty
           <tns-folder value="" />
           <tns-profile value="" />
           <files>
-            <file path="C:\CursoAI\Projet_baso_neo\PannesElectrique\bdebPannesElectriques.dbf" schema="bdebPannesElectriques" />
+            <file path="C:\CursoAI\PannesElectrique\bdebPannesElectriques.dbf" schema="bdebPannesElectriques" />
           </files>
           <type value="NONE" />
           <user value="" />
