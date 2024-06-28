@@ -65,6 +65,11 @@ select * from region]]></console>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
   </component>
+  <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$/sql/update_region_avec_lien_meteo.sql" connection-id="68d1be32-066c-4c45-a061-9d7a06acb744" session-id="MAIN" current-schema="bdebPannesElectriques" />
+    <mapping file-url="file://$PROJECT_DIR$/sql/scrapping_realise.sql" connection-id="68d1be32-066c-4c45-a061-9d7a06acb744" session-id="MAIN" current-schema="bdebPannesElectriques" />
+    <mapping file-url="file://$PROJECT_DIR$/sql/selects.sql" connection-id="68d1be32-066c-4c45-a061-9d7a06acb744" session-id="MAIN" current-schema="bdebPannesElectriques" />
+  </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />
     <execution-history>
