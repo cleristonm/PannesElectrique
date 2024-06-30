@@ -7,9 +7,8 @@ from fake_useragent import UserAgent
 def obtenir_req(url):
   max_retry = 6
   logger = logging.getLogger()
-  headers = {"User-Agent": UserAgent().random }
-  print(headers)
-
+  headers = {"User-Agent": UserAgent().random}
+  
   for retry in range(max_retry):
     try:
       req = requests.get(url, verify=False, headers=headers)
