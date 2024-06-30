@@ -1,5 +1,5 @@
 from modele.region import Region
-from soup.mod_soup import obtenir_soup
+from request.mod_request import obtenir_soup
 import dao.mod_dao_regions as dao
 import time
 from datetime import timedelta
