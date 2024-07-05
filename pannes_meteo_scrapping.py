@@ -85,7 +85,7 @@ def scrapping():
 
     scrapping_queue = cree_scrapping_queue(regions)
     while len(scrapping_queue) > 0:
-        element_queue = scrapping_queue.pop()
+        element_queue = scrapping_queue.pop(0)
         region = element_queue.region
         logger.info(f'Web scrapping region {region.nom} - Tentative {element_queue.tentative}')
         # S'il ne s'agit pas de la première tentative, il faut attendre 30 secondes.
