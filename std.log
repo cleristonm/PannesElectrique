@@ -39096,3 +39096,75 @@ IndexError: list index out of range
 2024-07-22 10:00:12,466 Starting new HTTPS connection (1): meteo.gc.ca:443
 2024-07-22 10:00:12,554 https://meteo.gc.ca:443 "GET /api/app/fr/Location/QC-166?type=city HTTP/1.1" 200 4542
 2024-07-22 10:00:12,584 Donnees de la meteo lié a Saguenay (V) ont ete ajouté a la BD. Meteo id 11025
+2024-07-22 11:00:02,733 ====================================================================================================
+2024-07-22 11:00:02,734 Starting Web scrapping id 1135
+2024-07-22 11:00:02,742 Web scrapping region Québec (V) - Tentative 1
+2024-07-22 11:00:02,769 Starting new HTTPS connection (1): pannes.hydroquebec.com:443
+2024-07-22 11:00:03,184 https://pannes.hydroquebec.com:443 "GET /pannes/bilan-interruptions-service/capitale-nationale/quebec-hors-mrc/quebec-v.html HTTP/1.1" 200 None
+2024-07-22 11:00:03,631 Donnees de pannes lié a Québec (V) ont ete ajouté a la BD. Panne id 11035
+2024-07-22 11:00:03,652 Starting new HTTPS connection (1): meteo.gc.ca:443
+2024-07-22 11:00:03,779 https://meteo.gc.ca:443 "GET /api/app/fr/Location/QC-133?type=city HTTP/1.1" 200 5305
+2024-07-22 11:00:03,812 Donnees de la meteo lié a Québec (V) ont ete ajouté a la BD. Meteo id 11026
+2024-07-22 11:00:03,813 Web scrapping region Drummondville (V) - Tentative 1
+2024-07-22 11:00:03,832 Starting new HTTPS connection (1): pannes.hydroquebec.com:443
+2024-07-22 11:00:04,090 https://pannes.hydroquebec.com:443 "GET /pannes/bilan-interruptions-service/centre-du-quebec/drummond/drummondville-v.html HTTP/1.1" 200 None
+2024-07-22 11:00:04,461 Donnees de pannes lié a Drummondville (V) ont ete ajouté a la BD. Panne id 11036
+2024-07-22 11:00:04,480 Starting new HTTPS connection (1): meteo.gc.ca:443
+2024-07-22 11:00:04,568 https://meteo.gc.ca:443 "GET /api/app/fr/Location/QC-2?type=city HTTP/1.1" 200 4347
+2024-07-22 11:00:04,599 Donnees de la meteo lié a Drummondville (V) ont ete ajouté a la BD. Meteo id 11027
+2024-07-22 11:00:04,600 Web scrapping region Granby (V) - Tentative 1
+2024-07-22 11:00:04,619 Starting new HTTPS connection (1): pannes.hydroquebec.com:443
+2024-07-22 11:00:05,067 https://pannes.hydroquebec.com:443 "GET /pannes/bilan-interruptions-service/estrie/la-haute-yamaska/granby-v.html HTTP/1.1" 200 None
+2024-07-22 11:00:05,407 Donnees de pannes lié a Granby (V) ont ete ajouté a la BD. Panne id 11037
+2024-07-22 11:00:05,426 Starting new HTTPS connection (1): meteo.gc.ca:443
+2024-07-22 11:00:05,523 https://meteo.gc.ca:443 "GET /api/app/fr/Location/QC-5?type=city HTTP/1.1" 200 4425
+2024-07-22 11:00:05,551 Donnees de la meteo lié a Granby (V) ont ete ajouté a la BD. Meteo id 11028
+2024-07-22 11:00:05,551 Web scrapping region Sherbrooke (V) - Tentative 1
+2024-07-22 11:00:05,570 Starting new HTTPS connection (1): pannes.hydroquebec.com:443
+2024-07-22 11:00:06,146 https://pannes.hydroquebec.com:443 "GET /pannes/bilan-interruptions-service/estrie/sherbrooke-hors-mrc/sherbrooke-v.html HTTP/1.1" 200 None
+2024-07-22 11:00:06,551 Donnees de pannes lié a Sherbrooke (V) ont ete ajouté a la BD. Panne id 11038
+2024-07-22 11:00:06,570 Starting new HTTPS connection (1): meteo.gc.ca:443
+2024-07-22 11:00:06,658 https://meteo.gc.ca:443 "GET /api/app/fr/Location/QC-136?type=city HTTP/1.1" 200 4639
+2024-07-22 11:00:06,694 Donnees de la meteo lié a Sherbrooke (V) ont ete ajouté a la BD. Meteo id 11029
+2024-07-22 11:00:06,695 Web scrapping region Saint-Jérôme (V) - Tentative 1
+2024-07-22 11:00:06,715 Starting new HTTPS connection (1): pannes.hydroquebec.com:443
+2024-07-22 11:00:07,062 https://pannes.hydroquebec.com:443 "GET /pannes/bilan-interruptions-service/laurentides/la-riviere-du-nord/saint-jerome-v.html HTTP/1.1" 200 None
+2024-07-22 11:00:07,425 Donnees de pannes lié a Saint-Jérôme (V) ont ete ajouté a la BD. Panne id 11039
+2024-07-22 11:00:07,445 Starting new HTTPS connection (1): meteo.gc.ca:443
+2024-07-22 11:00:07,530 https://meteo.gc.ca:443 "GET /api/app/fr/Location/QC-13?type=city HTTP/1.1" 200 4474
+2024-07-22 11:00:07,561 Donnees de la meteo lié a Saint-Jérôme (V) ont ete ajouté a la BD. Meteo id 11030
+2024-07-22 11:00:07,562 Web scrapping region Trois-Rivières (V) - Tentative 1
+2024-07-22 11:00:07,581 Starting new HTTPS connection (1): pannes.hydroquebec.com:443
+2024-07-22 11:00:07,742 https://pannes.hydroquebec.com:443 "GET /pannes/bilan-interruptions-service/mauricie/trois-rivieres-hors-mrc/trois-rivieres-v.html HTTP/1.1" 200 None
+2024-07-22 11:00:08,230 Donnees de pannes lié a Trois-Rivières (V) ont ete ajouté a la BD. Panne id 11040
+2024-07-22 11:00:08,250 Starting new HTTPS connection (1): meteo.gc.ca:443
+2024-07-22 11:00:08,340 https://meteo.gc.ca:443 "GET /api/app/fr/Location/QC-130?type=city HTTP/1.1" 200 4640
+2024-07-22 11:00:08,372 Donnees de la meteo lié a Trois-Rivières (V) ont ete ajouté a la BD. Meteo id 11031
+2024-07-22 11:00:08,373 Web scrapping region Montréal (V) - Tentative 1
+2024-07-22 11:00:08,392 Starting new HTTPS connection (1): pannes.hydroquebec.com:443
+2024-07-22 11:00:08,525 https://pannes.hydroquebec.com:443 "GET /pannes/bilan-interruptions-service/montreal/montreal-hors-mrc/montreal-v.html HTTP/1.1" 200 None
+2024-07-22 11:00:08,977 Donnees de pannes lié a Montréal (V) ont ete ajouté a la BD. Panne id 11041
+2024-07-22 11:00:08,997 Starting new HTTPS connection (1): meteo.gc.ca:443
+2024-07-22 11:00:09,082 https://meteo.gc.ca:443 "GET /api/app/fr/Location/QC-147?type=cityl HTTP/1.1" 200 4993
+2024-07-22 11:00:09,230 Donnees de la meteo lié a Montréal (V) ont ete ajouté a la BD. Meteo id 11032
+2024-07-22 11:00:09,231 Web scrapping region Saint-Jean-sur-Richelieu (V) - Tentative 1
+2024-07-22 11:00:09,251 Starting new HTTPS connection (1): pannes.hydroquebec.com:443
+2024-07-22 11:00:09,548 https://pannes.hydroquebec.com:443 "GET /pannes/bilan-interruptions-service/monteregie/le-haut-richelieu/saint-jean-sur-richelieu-v.html HTTP/1.1" 200 None
+2024-07-22 11:00:09,923 Donnees de pannes lié a Saint-Jean-sur-Richelieu (V) ont ete ajouté a la BD. Panne id 11042
+2024-07-22 11:00:09,943 Starting new HTTPS connection (1): meteo.gc.ca:443
+2024-07-22 11:00:10,028 https://meteo.gc.ca:443 "GET /api/app/fr/Location/QC-28?type=city HTTP/1.1" 200 4546
+2024-07-22 11:00:10,058 Donnees de la meteo lié a Saint-Jean-sur-Richelieu (V) ont ete ajouté a la BD. Meteo id 11033
+2024-07-22 11:00:10,059 Web scrapping region Gatineau (V) - Tentative 1
+2024-07-22 11:00:10,077 Starting new HTTPS connection (1): pannes.hydroquebec.com:443
+2024-07-22 11:00:10,529 https://pannes.hydroquebec.com:443 "GET /pannes/bilan-interruptions-service/outaouais/gatineau-hors-mrc/gatineau-v.html HTTP/1.1" 200 None
+2024-07-22 11:00:10,908 Donnees de pannes lié a Gatineau (V) ont ete ajouté a la BD. Panne id 11043
+2024-07-22 11:00:10,928 Starting new HTTPS connection (1): meteo.gc.ca:443
+2024-07-22 11:00:11,016 https://meteo.gc.ca:443 "GET /api/app/fr/Location/QC-126?type=city HTTP/1.1" 200 4268
+2024-07-22 11:00:11,047 Donnees de la meteo lié a Gatineau (V) ont ete ajouté a la BD. Meteo id 11034
+2024-07-22 11:00:11,048 Web scrapping region Saguenay (V) - Tentative 1
+2024-07-22 11:00:11,066 Starting new HTTPS connection (1): pannes.hydroquebec.com:443
+2024-07-22 11:00:11,551 https://pannes.hydroquebec.com:443 "GET /pannes/bilan-interruptions-service/saguenay-lac-saint-jean/saguenay-hors-mrc/saguenay-v.html HTTP/1.1" 200 None
+2024-07-22 11:00:11,925 Donnees de pannes lié a Saguenay (V) ont ete ajouté a la BD. Panne id 11044
+2024-07-22 11:00:11,944 Starting new HTTPS connection (1): meteo.gc.ca:443
+2024-07-22 11:00:12,034 https://meteo.gc.ca:443 "GET /api/app/fr/Location/QC-166?type=city HTTP/1.1" 200 4562
+2024-07-22 11:00:12,064 Donnees de la meteo lié a Saguenay (V) ont ete ajouté a la BD. Meteo id 11035
